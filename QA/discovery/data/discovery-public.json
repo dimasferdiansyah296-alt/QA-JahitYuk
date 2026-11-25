@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-11-25T03:52:57.963Z",
+  "base_url": "http://127.0.0.1:8000",
+  "role": "PUBLIC",
+  "method": "Playwright read-only crawler (link traversal, tanpa submit form)",
+  "max_pages": 30,
+  "skip_patterns": [
+    "logout",
+    "keluar",
+    "delete",
+    "hapus",
+    "destroy",
+    "remove"
+  ],
+  "unvisited_in_queue": [],
+  "pages": [
+    {
+      "page_id": "P001",
+      "role": "PUBLIC",
+      "requested_url": "http://127.0.0.1:8000/",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/",
+      "redirected": false,
+      "title": "Laravel",
+      "headings": [
+        "H1: Let's get started"
+      ],
+      "navigation": [
+        {
+          "text": "Log in",
+          "href": "http://127.0.0.1:8000/login"
+        },
+        {
+          "text": "Register",
+          "href": "http://127.0.0.1:8000/register"
+        }
+      ],
+      "links": [
+        {
+          "text": "Log in",
+          "href": "http://127.0.0.1:8000/login"
+        },
+        {
+          "text": "Register",
+          "href": "http://127.0.0.1:8000/register"
+        },
+        {
+          "text": "Documentation",
+          "href": "https://laravel.com/docs"
+        },
+        {
+          "text": "Laracasts",
+          "href": "https://laracasts.com/"
+        },
+        {
+          "text": "Deploy now",
+          "href": "https://cloud.laravel.com/"
+        },
+        {
+          "text": "View changelog",
+          "href": "https://github.com/laravel/framework/blob/13.x/CHANGELOG.md"
+        }
+      ],
+      "forms": [],
+      "buttons": [],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P001_PUBLIC_home.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P002",
+      "role": "PUBLIC",
+      "requested_url": "http://127.0.0.1:8000/login",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/login",
+      "redirected": false,
+      "title": "Login - JAHITYUK!!",
+      "headings": [
+        "H3: JAHITYUK!!"
+      ],
+      "navigation": [],
+      "links": [
+        {
+          "text": "Daftar",
+          "href": "http://127.0.0.1:8000/register"
+        },
+        {
+          "text": "Daftar Sekarang",
+          "href": "http://127.0.0.1:8000/register"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/login",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "id": null,
+              "label": "nama@email.com",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "nama@email.com"
+            },
+            {
+              "tag": "input",
+              "type": "password",
+              "name": "password",
+              "id": null,
+              "label": "••••••••",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "••••••••"
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "remember",
+              "id": "remember",
+              "label": "Ingat Saya",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null
+            }
+          ],
+          "buttons": [
+            "Masuk"
+          ]
+        }
+      ],
+      "buttons": [
+        "Daftar",
+        "Masuk"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P002_PUBLIC_login.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P003",
+      "role": "PUBLIC",
+      "requested_url": "http://127.0.0.1:8000/register",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/register",
+      "redirected": false,
+      "title": "Daftar Akun - JAHITYUK!!",
+      "headings": [
+        "H3: JAHITYUK!!"
+      ],
+      "navigation": [],
+      "links": [
+        {
+          "text": "Masuk",
+          "href": "http://127.0.0.1:8000/login"
+        },
+        {
+          "text": "Masuk di sini",
+          "href": "http://127.0.0.1:8000/login"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/register",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "nama",
+              "id": null,
+              "label": "Nama Lengkap Anda",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Nama Lengkap Anda"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "id": null,
+              "label": "nama@email.com",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "nama@email.com"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "no_telepon",
+              "id": null,
+              "label": "08xxxxxxxxxx",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "08xxxxxxxxxx"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "alamat",
+              "id": null,
+              "label": "Alamat lengkap Anda",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Alamat lengkap Anda"
+            },
+            {
+              "tag": "input",
+              "type": "password",
+              "name": "password",
+              "id": null,
+              "label": "Minimal 8 karakter",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Minimal 8 karakter"
+            },
+            {
+              "tag": "input",
+              "type": "password",
+              "name": "password_confirmation",
+              "id": null,
+              "label": "Ulangi kata sandi",
+              "required": true,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Ulangi kata sandi"
+            }
+          ],
+          "buttons": [
+            "Daftar Sekarang"
+          ]
+        }
+      ],
+      "buttons": [
+        "Masuk",
+        "Daftar Sekarang"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P003_PUBLIC_register.png",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ]
+}

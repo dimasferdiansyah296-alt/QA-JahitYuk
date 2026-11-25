@@ -1,0 +1,9 @@
+flowchart TD
+    A[Pengunjung buka /login] --> B[Isi email & password]
+    B --> C{Kredensial valid?}
+    C -- Tidak --> D[Tampilkan 'Email atau password salah.']
+    D --> B
+    C -- Ya --> E{Role user}
+    E -- admin --> F[/admin/dashboard/]
+    E -- karyawan --> G[/karyawan/dashboard/]
+    E -- pelanggan --> H[/pelanggan/dashboard/]

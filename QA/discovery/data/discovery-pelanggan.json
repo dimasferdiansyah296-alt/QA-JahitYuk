@@ -1,0 +1,497 @@
+{
+  "generated_at": "2026-11-25T03:54:07.765Z",
+  "base_url": "http://127.0.0.1:8000",
+  "role": "PELANGGAN",
+  "method": "Playwright read-only crawler (link traversal, tanpa submit form)",
+  "max_pages": 30,
+  "skip_patterns": [
+    "logout",
+    "keluar",
+    "delete",
+    "hapus",
+    "destroy",
+    "remove"
+  ],
+  "unvisited_in_queue": [],
+  "pages": [
+    {
+      "page_id": "P001",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/dashboard",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pelanggan/dashboard",
+      "redirected": true,
+      "title": "JAHITYUK!! - Dashboard Pelanggan",
+      "headings": [
+        "H1: Dashboard Pelanggan"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "+ Tambah Pesanan",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan/buat"
+        },
+        {
+          "text": "Lihat Daftar Pesanan",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "+ Tambah Pesanan",
+        "Lihat Daftar Pesanan"
+      ],
+      "tables": [],
+      "alerts": [
+        "👋 Selamat datang Dr. Dee McGlynn. Halaman ini hanya bisa diakses oleh pelanggan."
+      ],
+      "screenshot": "discovery/screenshots/P001_PELANGGAN_pelanggan-dashboard.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P002",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/",
+      "redirected": false,
+      "title": "Laravel",
+      "headings": [
+        "H1: Let's get started"
+      ],
+      "navigation": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        }
+      ],
+      "links": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        },
+        {
+          "text": "Documentation",
+          "href": "https://laravel.com/docs"
+        },
+        {
+          "text": "Laracasts",
+          "href": "https://laracasts.com/"
+        },
+        {
+          "text": "Deploy now",
+          "href": "https://cloud.laravel.com/"
+        },
+        {
+          "text": "View changelog",
+          "href": "https://github.com/laravel/framework/blob/13.x/CHANGELOG.md"
+        }
+      ],
+      "forms": [],
+      "buttons": [],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P002_PELANGGAN_home.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P003",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/pelanggan/pesanan/buat",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pelanggan/pesanan/buat",
+      "redirected": false,
+      "title": "JAHITYUK!! - Buat Pesanan Baru",
+      "headings": [
+        "H1: Buat Pesanan Baru"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pelanggan/pesanan",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "jenis_layanan",
+              "id": "jenis_layanan",
+              "label": "Jenis Layanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Pilih Jenis Layanan --",
+                "Jahit Baju",
+                "Jahit Celana",
+                "Jahit Rok",
+                "Jahit Gaun",
+                "Jahit Jas",
+                "Permak",
+                "Lainnya"
+              ]
+            },
+            {
+              "tag": "input",
+              "type": "date",
+              "name": "tgl_tenggat",
+              "id": "tgl_tenggat",
+              "label": "Tanggal Kebutuhan Selesai *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "model",
+              "id": "model",
+              "label": "Model Pakaian *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Contoh: Kemeja, Celana, Gaun, Jaket"
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "ukuran",
+              "id": "ukuran",
+              "label": "Ukuran *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Pilih Ukuran --",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "bahan",
+              "id": "bahan",
+              "label": "Bahan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Contoh: Katun, Sutra, Denim, Wol"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "warna",
+              "id": "warna",
+              "label": "Warna *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Contoh: Hitam, Biru, Merah"
+            },
+            {
+              "tag": "textarea",
+              "type": "textarea",
+              "name": "rincian",
+              "id": "rincian",
+              "label": "Rincian / Catatan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Tuliskan detail pesanan Anda, misalnya: lengan panjang, kerah V, saku di dada, dll."
+            },
+            {
+              "tag": "input",
+              "type": "file",
+              "name": "foto",
+              "id": "foto",
+              "label": "Foto Acuan / Desain (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null
+            }
+          ],
+          "buttons": [
+            "Kirim Pesanan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Kirim Pesanan"
+      ],
+      "tables": [],
+      "alerts": [
+        "Catatan: Setelah pesanan dikirim, status akan menjadi Baru. Admin akan memproses dan memberikan nomor antrean. Anda bisa memantau status pesanan di halaman ini."
+      ],
+      "screenshot": "discovery/screenshots/P003_PELANGGAN_pelanggan-pesanan-buat.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P004",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/pelanggan/pesanan",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pelanggan/pesanan",
+      "redirected": false,
+      "title": "JAHITYUK!! - Daftar Pesanan Saya",
+      "headings": [
+        "H1: Pesanan Saya"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Buat Pesanan Baru",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan/buat"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan/11"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan/7"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pelanggan/pesanan/11",
+          "fields": [],
+          "buttons": [
+            "Batalkan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Buat Pesanan Baru",
+        "Detail",
+        "Batalkan",
+        "Detail"
+      ],
+      "tables": [
+        {
+          "headers": [
+            "No.",
+            "Jenis Layanan",
+            "Model",
+            "Bahan",
+            "Ukuran",
+            "Warna",
+            "Tgl. Pesan",
+            "Tenggat",
+            "Antrean",
+            "Status",
+            "Aksi"
+          ],
+          "row_count": 2
+        }
+      ],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P004_PELANGGAN_pelanggan-pesanan.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P005",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/pelanggan/pesanan/11",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pelanggan/pesanan/11",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #11",
+      "headings": [
+        "H1: Detail Pesanan #11"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pelanggan/pesanan/11",
+          "fields": [],
+          "buttons": [
+            "Batalkan Pesanan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batalkan Pesanan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P005_PELANGGAN_pelanggan-pesanan-11.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P006",
+      "role": "PELANGGAN",
+      "requested_url": "http://127.0.0.1:8000/pelanggan/pesanan/7",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pelanggan/pesanan/7",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #7",
+      "headings": [
+        "H1: Detail Pesanan #7"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pelanggan/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P006_PELANGGAN_pelanggan-pesanan-7.png",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ]
+}

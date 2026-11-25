@@ -1,0 +1,11 @@
+flowchart TD
+    A[Admin/Karyawan login] --> B[/pesanan/]
+    B --> C{Filter status / cari}
+    C --> D[/pesanan/{id}/edit/]
+    D --> E[Ubah status & nomor antrean]
+    E --> F[PUT /pesanan/{id}]
+    F --> G[Status tersimpan]
+    G --> B
+    subgraph Alur status
+      S1[baru] --> S2[diproses] --> S3[dijahit] --> S4[selesai] --> S5[diambil]
+    end

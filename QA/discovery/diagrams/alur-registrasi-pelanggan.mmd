@@ -1,0 +1,8 @@
+flowchart TD
+    A[Pengunjung buka /register] --> B[Isi nama, email, no_telepon, alamat, password, konfirmasi]
+    B --> C{Validasi lolos?}
+    C -- Tidak --> D[Tampilkan error validasi]
+    D --> B
+    C -- Ya --> E[POST /register]
+    E --> F[User + Pelanggan dibuat]
+    F --> G[Auto login -> /pelanggan/dashboard]

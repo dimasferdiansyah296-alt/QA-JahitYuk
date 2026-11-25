@@ -1,0 +1,2158 @@
+{
+  "generated_at": "2026-11-25T03:53:45.873Z",
+  "base_url": "http://127.0.0.1:8000",
+  "role": "ADMIN",
+  "method": "Playwright read-only crawler (link traversal, tanpa submit form)",
+  "max_pages": 30,
+  "skip_patterns": [
+    "logout",
+    "keluar",
+    "delete",
+    "hapus",
+    "destroy",
+    "remove"
+  ],
+  "unvisited_in_queue": [],
+  "pages": [
+    {
+      "page_id": "P001",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/dashboard",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/admin/dashboard",
+      "redirected": true,
+      "title": "JAHITYUK!! - Dashboard Admin",
+      "headings": [
+        "H1: Dashboard Admin"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kelola Pesanan",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kelola Pesanan"
+      ],
+      "tables": [],
+      "alerts": [
+        "👋 Selamat datang Test User. Halaman ini hanya bisa diakses oleh admin."
+      ],
+      "screenshot": "discovery/screenshots/P001_ADMIN_admin-dashboard.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P002",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/",
+      "redirected": false,
+      "title": "Laravel",
+      "headings": [
+        "H1: Let's get started"
+      ],
+      "navigation": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        }
+      ],
+      "links": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        },
+        {
+          "text": "Documentation",
+          "href": "https://laravel.com/docs"
+        },
+        {
+          "text": "Laracasts",
+          "href": "https://laracasts.com/"
+        },
+        {
+          "text": "Deploy now",
+          "href": "https://cloud.laravel.com/"
+        },
+        {
+          "text": "View changelog",
+          "href": "https://github.com/laravel/framework/blob/13.x/CHANGELOG.md"
+        }
+      ],
+      "forms": [],
+      "buttons": [],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P002_ADMIN_home.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P003",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan",
+      "redirected": false,
+      "title": "JAHITYUK!! - Manajemen Pesanan",
+      "headings": [
+        "H1: Manajemen Pesanan"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali ke Dashboard",
+          "href": "http://127.0.0.1:8000/admin/dashboard"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/11"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/11/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/9"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/9/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/10"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/10/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/1"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/1/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/2"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/2/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/3"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/3/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/4"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/4/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/5"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/5/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/6"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/6/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/7"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/7/edit"
+        },
+        {
+          "text": "Detail",
+          "href": "http://127.0.0.1:8000/pesanan/8"
+        },
+        {
+          "text": "Edit",
+          "href": "http://127.0.0.1:8000/pesanan/8/edit"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "GET",
+          "action": "http://127.0.0.1:8000/pesanan",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Filter Status",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Semua Status --",
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "cari",
+              "id": "cari",
+              "label": "Cari (Model / Bahan / Nama Pelanggan)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": "Kata kunci..."
+            }
+          ],
+          "buttons": [
+            "Filter"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali ke Dashboard",
+        "Filter",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit",
+        "Detail",
+        "Edit"
+      ],
+      "tables": [
+        {
+          "headers": [
+            "No.",
+            "Pelanggan",
+            "Jenis Layanan",
+            "Model",
+            "Tgl. Pesan",
+            "Tenggat",
+            "Antrean",
+            "Status",
+            "Aksi"
+          ],
+          "row_count": 11
+        }
+      ],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P003_ADMIN_pesanan.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P004",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/admin/dashboard",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/admin/dashboard",
+      "redirected": false,
+      "title": "JAHITYUK!! - Dashboard Admin",
+      "headings": [
+        "H1: Dashboard Admin"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kelola Pesanan",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kelola Pesanan"
+      ],
+      "tables": [],
+      "alerts": [
+        "👋 Selamat datang Test User. Halaman ini hanya bisa diakses oleh admin."
+      ],
+      "screenshot": "discovery/screenshots/P004_ADMIN_admin-dashboard.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P005",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/11",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/11",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #11",
+      "headings": [
+        "H1: Detail Pesanan #11"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/11/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P005_ADMIN_pesanan-11.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P006",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/11/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/11/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #11",
+      "headings": [
+        "H1: Edit Pesanan #11"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/11"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/11"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/11",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P006_ADMIN_pesanan-11-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P007",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/9",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/9",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #9",
+      "headings": [
+        "H1: Detail Pesanan #9"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/9/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P007_ADMIN_pesanan-9.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P008",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/9/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/9/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #9",
+      "headings": [
+        "H1: Edit Pesanan #9"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/9"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/9"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/9",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P008_ADMIN_pesanan-9-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P009",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/10",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/10",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #10",
+      "headings": [
+        "H1: Detail Pesanan #10"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/10/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P009_ADMIN_pesanan-10.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P010",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/10/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/10/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #10",
+      "headings": [
+        "H1: Edit Pesanan #10"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/10"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/10"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/10",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P010_ADMIN_pesanan-10-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P011",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/1",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/1",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #1",
+      "headings": [
+        "H1: Detail Pesanan #1"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/1/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P011_ADMIN_pesanan-1.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P012",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/1/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/1/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #1",
+      "headings": [
+        "H1: Edit Pesanan #1"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/1"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/1"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/1",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P012_ADMIN_pesanan-1-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P013",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/2",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/2",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #2",
+      "headings": [
+        "H1: Detail Pesanan #2"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/2/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P013_ADMIN_pesanan-2.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P014",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/2/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/2/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #2",
+      "headings": [
+        "H1: Edit Pesanan #2"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/2"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/2"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/2",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P014_ADMIN_pesanan-2-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P015",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/3",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/3",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #3",
+      "headings": [
+        "H1: Detail Pesanan #3"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/3/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P015_ADMIN_pesanan-3.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P016",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/3/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/3/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #3",
+      "headings": [
+        "H1: Edit Pesanan #3"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/3"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/3"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/3",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P016_ADMIN_pesanan-3-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P017",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/4",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/4",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #4",
+      "headings": [
+        "H1: Detail Pesanan #4"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/4/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P017_ADMIN_pesanan-4.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P018",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/4/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/4/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #4",
+      "headings": [
+        "H1: Edit Pesanan #4"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/4"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/4"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/4",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P018_ADMIN_pesanan-4-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P019",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/5",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/5",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #5",
+      "headings": [
+        "H1: Detail Pesanan #5"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/5/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P019_ADMIN_pesanan-5.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P020",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/5/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/5/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #5",
+      "headings": [
+        "H1: Edit Pesanan #5"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/5"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/5"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/5",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P020_ADMIN_pesanan-5-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P021",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/6",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/6",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #6",
+      "headings": [
+        "H1: Detail Pesanan #6"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/6/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P021_ADMIN_pesanan-6.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P022",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/6/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/6/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #6",
+      "headings": [
+        "H1: Edit Pesanan #6"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/6"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/6"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/6",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P022_ADMIN_pesanan-6-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P023",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/7",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/7",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #7",
+      "headings": [
+        "H1: Detail Pesanan #7"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/7/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P023_ADMIN_pesanan-7.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P024",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/7/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/7/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #7",
+      "headings": [
+        "H1: Edit Pesanan #7"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/7"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/7"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/7",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P024_ADMIN_pesanan-7-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P025",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/8",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/8",
+      "redirected": false,
+      "title": "JAHITYUK!! - Detail Pesanan #8",
+      "headings": [
+        "H1: Detail Pesanan #8"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Edit Status / Antrean",
+          "href": "http://127.0.0.1:8000/pesanan/8/edit"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Edit Status / Antrean",
+        "Kembali"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P025_ADMIN_pesanan-8.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P026",
+      "role": "ADMIN",
+      "requested_url": "http://127.0.0.1:8000/pesanan/8/edit",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/pesanan/8/edit",
+      "redirected": false,
+      "title": "JAHITYUK!! - Edit Pesanan #8",
+      "headings": [
+        "H1: Edit Pesanan #8"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        },
+        {
+          "text": "Kembali",
+          "href": "http://127.0.0.1:8000/pesanan/8"
+        },
+        {
+          "text": "Batal",
+          "href": "http://127.0.0.1:8000/pesanan/8"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        },
+        {
+          "form_index": 2,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/pesanan/8",
+          "fields": [
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "status",
+              "id": "status",
+              "label": "Status Pesanan *",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "Baru",
+                "Diproses",
+                "Dijahit",
+                "Selesai",
+                "Diambil"
+              ]
+            },
+            {
+              "tag": "select",
+              "type": "select-one",
+              "name": "id_antrean",
+              "id": "id_antrean",
+              "label": "Nomor Antrean (opsional)",
+              "required": false,
+              "maxlength": null,
+              "pattern": null,
+              "placeholder": null,
+              "options": [
+                "-- Tanpa Antrean --",
+                "A008 - 24 Oct 2026 (diproses)",
+                "A001 - 06 Nov 2026 (batal)",
+                "A002 - 06 Nov 2026 (diproses)",
+                "A005 - 06 Nov 2026 (diproses)",
+                "A004 - 12 Nov 2026 (menunggu)",
+                "A007 - 15 Nov 2026 (batal)",
+                "A003 - 01 Dec 2026 (menunggu)"
+              ]
+            }
+          ],
+          "buttons": [
+            "Simpan Perubahan"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout",
+        "Kembali",
+        "Batal",
+        "Simpan Perubahan"
+      ],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P026_ADMIN_pesanan-8-edit.png",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ]
+}

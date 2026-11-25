@@ -1,0 +1,11 @@
+flowchart TD
+    A[Pelanggan login] --> B[/pelanggan/dashboard/]
+    B --> C[/pelanggan/pesanan/buat/]
+    C --> D[Isi jenis_layanan, tgl_tenggat, model, ukuran, bahan, warna, rincian]
+    D --> E[Foto acuan opsional maks 2MB]
+    E --> F{Validasi lolos?}
+    F -- Tidak --> G[Tampilkan error validasi]
+    G --> D
+    F -- Ya --> H[POST /pelanggan/pesanan]
+    H --> I[Pesanan tersimpan status 'baru']
+    I --> J[/pelanggan/pesanan/]

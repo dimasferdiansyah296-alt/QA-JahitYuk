@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-25T03:53:53.531Z",
+  "base_url": "http://127.0.0.1:8000",
+  "role": "KARYAWAN",
+  "method": "Playwright read-only crawler (link traversal, tanpa submit form)",
+  "max_pages": 30,
+  "skip_patterns": [
+    "logout",
+    "keluar",
+    "delete",
+    "hapus",
+    "destroy",
+    "remove"
+  ],
+  "unvisited_in_queue": [],
+  "pages": [
+    {
+      "page_id": "P001",
+      "role": "KARYAWAN",
+      "requested_url": "http://127.0.0.1:8000/dashboard",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/karyawan/dashboard",
+      "redirected": true,
+      "title": "JAHITYUK!! - Dashboard Karyawan",
+      "headings": [
+        "H1: Dashboard Karyawan"
+      ],
+      "navigation": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000"
+        }
+      ],
+      "links": [
+        {
+          "text": "🧵 JAHITYUK!!",
+          "href": "http://127.0.0.1:8000/"
+        }
+      ],
+      "forms": [
+        {
+          "form_index": 1,
+          "id": null,
+          "method": "POST",
+          "action": "http://127.0.0.1:8000/logout",
+          "fields": [],
+          "buttons": [
+            "Logout"
+          ]
+        }
+      ],
+      "buttons": [
+        "Logout"
+      ],
+      "tables": [],
+      "alerts": [
+        "👋 Selamat datang Hallie Dach. Halaman ini hanya bisa diakses oleh karyawan dan admin."
+      ],
+      "screenshot": "discovery/screenshots/P001_KARYAWAN_karyawan-dashboard.png",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "page_id": "P002",
+      "role": "KARYAWAN",
+      "requested_url": "http://127.0.0.1:8000/",
+      "discovery_status": "Discovered",
+      "http_status": 200,
+      "final_url": "http://127.0.0.1:8000/",
+      "redirected": false,
+      "title": "Laravel",
+      "headings": [
+        "H1: Let's get started"
+      ],
+      "navigation": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        }
+      ],
+      "links": [
+        {
+          "text": "Dashboard",
+          "href": "http://127.0.0.1:8000/dashboard"
+        },
+        {
+          "text": "Documentation",
+          "href": "https://laravel.com/docs"
+        },
+        {
+          "text": "Laracasts",
+          "href": "https://laracasts.com/"
+        },
+        {
+          "text": "Deploy now",
+          "href": "https://cloud.laravel.com/"
+        },
+        {
+          "text": "View changelog",
+          "href": "https://github.com/laravel/framework/blob/13.x/CHANGELOG.md"
+        }
+      ],
+      "forms": [],
+      "buttons": [],
+      "tables": [],
+      "alerts": [],
+      "screenshot": "discovery/screenshots/P002_KARYAWAN_home.png",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ]
+}
